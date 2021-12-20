@@ -28,6 +28,18 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/bg-header-desktop.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 a {
   text-decoration: none;
 }
@@ -38,23 +50,73 @@ ul {
 }
 /*---------------------------------------------------------  Start Constants */
 .container {
+  margin-left: auto;
+  margin-right: auto;
 }
 .main-header {
+  color: var(--Dark-Grayish-Blue);
+  margin-bottom: 0;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 35px;
 }
 .main-follower {
+  color: var(--Grayish-Blue);
+  margin-top: 0;
+  font-family: "Bai Jamjuree";
+  max-width: 550px;
 }
 .mini-h {
+  font-size: 20px;
+  font-family: "Bai Jamjuree";
 }
 .mini-f {
+  color: var(--Grayish-Blue);
+  font-family: "Bai Jamjuree";
 }
 .buttons {
+  font-family: "Bai Jamjuree";
+  font-size: 15px;
 }
 .ios {
+  color: white;
+  background-color: var(--Strong-Cyan);
+  border-style: hidden;
+  height: 40px;
+  width: 180px;
+  border-radius: 25px;
+  box-shadow: 0px 2px 0px 0px hsl(171deg 61% 33%);
+  margin-right: 10px;
+  margin-left: -5px;
 }
 .mac {
+  color: white;
+  background-color: var(--Light-Blue);
+  border-style: hidden;
+  height: 40px;
+  width: 180px;
+  border-radius: 25px;
+  box-shadow: 0px 2px 0px 0px hsl(233deg 46% 49%);
 }
 /*-----------------------------------------------------------  End Constants */
 /*--------------------------------------------------------  End Global Rules */
 /*----------------------------------------------------------------Start Code */
-
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.header p {
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Bai Jamjuree";
+}
 /*------------------------------------------------------------------End Code */
