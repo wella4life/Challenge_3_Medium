@@ -1,11 +1,11 @@
 - Overview:
   - [Clipboard Landing Page Master](#the-challenge)
   - [https://wella4life.github.io/Challenge_3_Medium/](#links)
-  - ![](images/Finished-Desktop-one.jpg)
-  - ![](images/Finished-Desktop-Two.jpg)
-  - ![](images/Finished-Desktop-Three.jpg)
-  - ![](images/Finished-Desktop-Four.jpg)
-  - ![](images/Finished-Desktop-Five.jpg)
+  - ![](images/Finished-Desktop-1.jpg)
+  - ![](images/Finished-Desktop-2.jpg)
+  - ![](images/Finished-Desktop-3.jpg)
+  - ![](images/Finished-Desktop-4.jpg)
+  - ![](images/Finished-Desktop-5.jpg)
 
  - Users should be able to:
    - View the optimal layout for the site depending on their device's screen size
