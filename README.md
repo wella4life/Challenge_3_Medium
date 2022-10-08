@@ -1,6 +1,6 @@
 - Overview:
-  - [Clipboard Landing Page Master](#the-challenge)
-  - [https://wella4life.github.io/Challenge_3_Medium/](#links)
+  - [Clipboard Landing Page Master]
+  - [https://wella4life.github.io/Challenge_3_Medium/]
   - ![](images/Finished-Desktop-1.jpg)
   - ![](images/Finished-Desktop-2.jpg)
   - ![](images/Finished-Desktop-3.jpg)
